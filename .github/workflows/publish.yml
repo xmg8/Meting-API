@@ -112,7 +112,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: xmg8-meting-api-79
+          project: xmg8-meting-api-79.deno.dev
           entrypoint: deno.js
 
   release-docker:
